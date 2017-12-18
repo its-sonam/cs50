@@ -6,6 +6,7 @@ int main(void)
    int height=get_int(); int l=1;
    if(height>23||height<1)
    {
+        printf("Height: ");
        height=get_int();
    }
   for(int i=0;i<height&&height<23&&height>0;i++)
