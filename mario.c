@@ -7,7 +7,7 @@ int main(void)
     if(height==1)
    {
        printf("# #");
-   }
+   }else
    if(height>23||height<1)
    {
         printf("Height: ");
